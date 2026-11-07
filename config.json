@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "announcements": [
+    {
+      "id": "20261107-welcome",
+      "title": "欢迎使用随心工具箱",
+      "content": "这是一条示例公告，把 title 和 content 改成你要发的内容即可，客户端每次启动都会展示。",
+      "type": "info"
+    }
+  ],
+  "update": {
+    "latestVersion": "2.3.0",
+    "latestVersionCode": 230,
+    "downloadUrl": "https://suimian.ct.ws/app/随心工具箱-2.3.0.exe",
+    "changelog": "1. 优化刷机流程的分区校验\n2. 新增隐藏环境状态快照",
+    "forced": false
+  },
+  "availability": {
+    "enabled": true,
+    "message": ""
+  }
+}
