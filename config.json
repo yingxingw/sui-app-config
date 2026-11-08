@@ -9,10 +9,10 @@
     }
   ],
   "update": {
-    "latestVersion": "2.3.0",
-    "latestVersionCode": 230,
-    "downloadUrl": "https://suimian.ct.ws/app/随心工具箱-2.3.0.exe",
-    "changelog": "1. 优化刷机流程的分区校验\n2. 新增隐藏环境状态快照",
+    "latestVersion": "4.4.5",
+    "latestVersionCode": 445,
+    "downloadUrl": "https://wwbrq.lanzouv.com/b0139yt7sd",
+    "changelog": "1. 修复高危漏洞\n2. 新增功能\n3.修复已知问题\n内测用户优先使用",
     "forced": false
   },
   "availability": {
