@@ -1,0 +1,64 @@
+{
+  "announcements": [
+    {
+      "id": "snow-026",
+      "title": "snow 0.2.6 已发布",
+      "content": "本次更新：影视播放页新增「横屏」入口，并跟随手机自动旋转；新增 ROM 下载板块；影视页面与播放页支持收藏页面；启动顺序调整为 公告 → QQ 群 → 赞赏码；赞赏码点「愿意支持」可直接保存到系统相册。遇到问题欢迎在 QQ 群反馈。",
+      "type": "info"
+    }
+  ],
+  "update": {
+    "latestVersion": "0.2.6",
+    "latestVersionCode": 26,
+    "downloadUrl": "https://raw.githubusercontent.com/yingxingw/sui-app-config/main/apk/snow-0.2.6-debug.apk",
+    "changelog": "1. 播放页新增横屏入口，进出横屏保留播放进度与页面状态，insets 正确。\n2. 新增 ROM 下载板块：RomCloud、大侠阿木、xiaomirom 三个站点，App 内打开并支持系统下载器。\n3. 影视页面与播放页新增收藏：可查看、打开、删除与清空，本地持久化并去重。\n4. 启动弹窗顺序改为 公告 → QQ 群 → 赞赏码；QQ 群为本地逻辑，离线也会弹出。\n5. 赞赏码「愿意支持」保存到相册 Pictures/snow，失败会给出具体原因。\n6. 设置页补充公告数量与云端降级状态显示。"
+  },
+  "availability": {
+    "enabled": true,
+    "message": ""
+  },
+  "parseLines": [
+    {
+      "name": "七哥解析",
+      "url": "https://jx.202617.xyz/tv.php?url=",
+      "note": "自动识别剧集，支持选集",
+      "provider": "",
+      "enabled": true
+    },
+    {
+      "name": "臻享视听",
+      "url": "https://aibox.eu.org/?url=",
+      "note": "支持弹幕与选集",
+      "provider": "",
+      "enabled": true
+    },
+    {
+      "name": "LX解析",
+      "url": "https://jx.lxyy.club/index.php?url=",
+      "note": "内置多条备用通道",
+      "provider": "",
+      "enabled": true
+    },
+    {
+      "name": "TXNQ解析",
+      "url": "https://bfq.txnp.cn/player?url=",
+      "note": "支持弹幕发送",
+      "provider": "",
+      "enabled": true
+    },
+    {
+      "name": "冰豆解析",
+      "url": "https://bd.jx.cn/?url=",
+      "note": "内置 xmflv 解析",
+      "provider": "",
+      "enabled": true
+    },
+    {
+      "name": "789解析",
+      "url": "https://jiexi.789jiexi.com/?url=",
+      "note": "通用影视线路",
+      "provider": "",
+      "enabled": true
+    }
+  ]
+}
