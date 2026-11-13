@@ -1,17 +1,17 @@
 {
   "announcements": [
     {
-      "id": "snow-026",
-      "title": "snow 0.2.6 已发布",
-      "content": "本次更新：影视播放页新增「横屏」入口，并跟随手机自动旋转；新增 ROM 下载板块；影视页面与播放页支持收藏页面；启动顺序调整为 公告 → QQ 群 → 赞赏码；赞赏码点「愿意支持」可直接保存到系统相册。遇到问题欢迎在 QQ 群反馈。",
+      "id": "snow-027",
+      "title": "snow 0.2.7 已发布",
+      "content": "本次更新：四个影视站点在界面中统一改用自定义名称；进入影视页签时新增免责声明，每次进入都需要确认后才能使用解析功能。站点地址与解析线路均未改动。遇到问题欢迎在 QQ 群反馈。",
       "type": "info"
     }
   ],
   "update": {
-    "latestVersion": "0.2.6",
-    "latestVersionCode": 26,
-    "downloadUrl": "https://raw.githubusercontent.com/yingxingw/sui-app-config/main/apk/snow-0.2.6-debug.apk",
-    "changelog": "1. 播放页新增横屏入口，进出横屏保留播放进度与页面状态，insets 正确。\n2. 新增 ROM 下载板块：RomCloud、大侠阿木、xiaomirom 三个站点，App 内打开并支持系统下载器。\n3. 影视页面与播放页新增收藏：可查看、打开、删除与清空，本地持久化并去重。\n4. 启动弹窗顺序改为 公告 → QQ 群 → 赞赏码；QQ 群为本地逻辑，离线也会弹出。\n5. 赞赏码「愿意支持」保存到相册 Pictures/snow，失败会给出具体原因。\n6. 设置页补充公告数量与云端降级状态显示。"
+    "latestVersion": "0.2.7",
+    "latestVersionCode": 27,
+    "downloadUrl": "https://raw.githubusercontent.com/yingxingw/sui-app-config/main/apk/snow-0.2.7-debug.apk",
+    "changelog": "1. 四个影视站点在界面中统一更换展示名称：小x、小Q、小B、小Y，站点地址与解析线路保持不变。\n2. 进入影视页签时弹出免责声明，每次进入都需要点「同意并继续」后才能使用；点「不同意」会退出影视页。\n3. 免责声明说明：解析与播放内容均由第三方提供，本应用仅内置第三方链接入口，不存储、不传播任何影视内容，开发者不承担由此产生的责任。\n4. 旧版本收藏在升级后仍可正常打开，收藏来源显示为新站点名称。"
   },
   "availability": {
     "enabled": true,
