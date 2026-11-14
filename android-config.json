@@ -15,7 +15,7 @@
   },
   "availability": {
     "enabled": true,
-    "message": "当前服务维护中，请稍后再试或加入 QQ 群"
+    "message": ""
   },
   "parseLines": [
     {
